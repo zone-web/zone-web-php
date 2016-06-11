@@ -1,0 +1,33 @@
+.slider-container{
+	width:1000px;
+	overflow: scroll;
+}
+.slider-container .slider-content{
+	width:3000px;
+	overflow-x: hidden;
+
+}
+.slider-container .slider-content .img-wrapper{
+	float:left;
+	width: 1000px;
+	position: relative;
+}
+
+.slider-container .slider-content .img-wrapper .desc{
+	width: 100%;
+	position: absolute;
+	bottom:0;
+	background: rgba(0,0,0,.75);
+	color:#fff;
+	padding: 5px;
+
+}
+.slider-container .slider-content .img-wrapper .desc h1{
+	padding: 4px;
+}
+.slider-container .slider-content .img-wrapper .desc p{
+	line-height: 16px;
+}
+.slider-container .slider-content .img-wrapper img{
+	width:100%;
+}
